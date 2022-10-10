@@ -25,6 +25,9 @@ public class IntTwoD {
         a[4][1] = 53;
         a[4][2] = 54;
 
+        System.out.println("row="+a.length); // 5
+        System.out.println("col="+a[0].length); // 3
+
 
         for (int i=0;i<5;i++) // rows
         {
