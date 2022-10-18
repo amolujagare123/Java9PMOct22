@@ -1,6 +1,6 @@
 package ClassConstructors;
 
-public class MyClass2 {
+public class ParameterizedDemo2 {
 
     int a;
     double d;
@@ -15,23 +15,20 @@ public class MyClass2 {
         System.out.println("str="+str);
     }
 
-   /* MyClass2()
-    {
-        // empty constructor
-    }*/
 
-    MyClass2()
+    ParameterizedDemo2(int a, double d, char c, String str)
     {
-       a = 100;
-       d = 50.123;
-       c = 'j';
-       str = "java";
+        this.a = a;
+        this.d = d;
+        this.c = c;
+        this.str = str;
     }
+
 
     public static void main(String[] args) {
 
-        MyClass2 ob = new MyClass2();
-
+        ParameterizedDemo2 ob = new ParameterizedDemo2(12,34.67,'g',"java");
+       
         ob.display();
 
     }

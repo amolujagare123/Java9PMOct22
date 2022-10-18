@@ -1,9 +1,9 @@
-package ClassConstructors;
+package ClassConstructors.pack1;
 
-public class MyClass2 {
+public class Java1 {
 
-    int a;
-    double d;
+    public int a;
+    private double d;
     char c;
     String str; // data members
 
@@ -15,23 +15,13 @@ public class MyClass2 {
         System.out.println("str="+str);
     }
 
-   /* MyClass2()
-    {
-        // empty constructor
-    }*/
-
-    MyClass2()
-    {
-       a = 100;
-       d = 50.123;
-       c = 'j';
-       str = "java";
-    }
-
     public static void main(String[] args) {
 
-        MyClass2 ob = new MyClass2();
-
+        Java1 ob = new Java1();
+        ob.a = 90;
+        ob.d = 56.67;
+        ob.c = 'h';
+        ob.str = "laptop";
         ob.display();
 
     }
