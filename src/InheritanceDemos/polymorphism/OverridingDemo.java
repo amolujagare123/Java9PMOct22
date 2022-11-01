@@ -2,7 +2,7 @@ package InheritanceDemos.polymorphism;
 
 class TVShowroom
 {
-    void channels()
+    public void channels()
     {
         System.out.println("Tv Showroom channels");
     }
@@ -20,7 +20,7 @@ class TVShowroom
 
 class Samsung extends  TVShowroom
 {
-    void channels()
+    public void channels()
     {
         System.out.println("Samsung channels");
     }
@@ -38,7 +38,7 @@ class Samsung extends  TVShowroom
 
 class Onida extends  TVShowroom
 {
-    void channels()
+    public void channels()
     {
         System.out.println("Onida channels");
     }
@@ -56,7 +56,7 @@ class Onida extends  TVShowroom
 
 class LG extends  TVShowroom
 {
-    void channels()
+    public void channels()
     {
         System.out.println("LG channels");
     }
